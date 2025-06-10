@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		4302CA5E2DF6D844003AAD1C /* PBXContainerItemProxy */ = {
+		431F31EC2DF82C72009C3276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4302CA482DF6D841003AAD1C /* Project object */;
+			containerPortal = 431F31D62DF82C6F009C3276 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4302CA4F2DF6D841003AAD1C;
-			remoteInfo = Bookworm;
+			remoteGlobalIDString = 431F31DD2DF82C6F009C3276;
+			remoteInfo = SwiftDataProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4302CA502DF6D841003AAD1C /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4302CA5D2DF6D844003AAD1C /* BookwormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookwormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431F31DE2DF82C6F009C3276 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431F31EB2DF82C72009C3276 /* SwiftDataProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4302CA522DF6D841003AAD1C /* Bookworm */ = {
+		431F31E02DF82C6F009C3276 /* SwiftDataProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Bookworm;
+			path = SwiftDataProject;
 			sourceTree = "<group>";
 		};
-		4302CA602DF6D844003AAD1C /* BookwormTests */ = {
+		431F31EE2DF82C72009C3276 /* SwiftDataProjectTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BookwormTests;
+			path = SwiftDataProjectTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4302CA4D2DF6D841003AAD1C /* Frameworks */ = {
+		431F31DB2DF82C6F009C3276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4302CA5A2DF6D844003AAD1C /* Frameworks */ = {
+		431F31E82DF82C72009C3276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,20 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4302CA472DF6D841003AAD1C = {
+		431F31D52DF82C6F009C3276 = {
 			isa = PBXGroup;
 			children = (
-				4302CA522DF6D841003AAD1C /* Bookworm */,
-				4302CA602DF6D844003AAD1C /* BookwormTests */,
-				4302CA512DF6D841003AAD1C /* Products */,
+				431F31E02DF82C6F009C3276 /* SwiftDataProject */,
+				431F31EE2DF82C72009C3276 /* SwiftDataProjectTests */,
+				431F31DF2DF82C6F009C3276 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4302CA512DF6D841003AAD1C /* Products */ = {
+		431F31DF2DF82C6F009C3276 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4302CA502DF6D841003AAD1C /* Bookworm.app */,
-				4302CA5D2DF6D844003AAD1C /* BookwormTests.xctest */,
+				431F31DE2DF82C6F009C3276 /* SwiftDataProject.app */,
+				431F31EB2DF82C72009C3276 /* SwiftDataProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,99 +73,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4302CA4F2DF6D841003AAD1C /* Bookworm */ = {
+		431F31DD2DF82C6F009C3276 /* SwiftDataProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4302CA712DF6D844003AAD1C /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildConfigurationList = 431F31FF2DF82C72009C3276 /* Build configuration list for PBXNativeTarget "SwiftDataProject" */;
 			buildPhases = (
-				4302CA4C2DF6D841003AAD1C /* Sources */,
-				4302CA4D2DF6D841003AAD1C /* Frameworks */,
-				4302CA4E2DF6D841003AAD1C /* Resources */,
+				431F31DA2DF82C6F009C3276 /* Sources */,
+				431F31DB2DF82C6F009C3276 /* Frameworks */,
+				431F31DC2DF82C6F009C3276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4302CA522DF6D841003AAD1C /* Bookworm */,
+				431F31E02DF82C6F009C3276 /* SwiftDataProject */,
 			);
-			name = Bookworm;
+			name = SwiftDataProject;
 			packageProductDependencies = (
 			);
-			productName = Bookworm;
-			productReference = 4302CA502DF6D841003AAD1C /* Bookworm.app */;
+			productName = SwiftDataProject;
+			productReference = 431F31DE2DF82C6F009C3276 /* SwiftDataProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4302CA5C2DF6D844003AAD1C /* BookwormTests */ = {
+		431F31EA2DF82C72009C3276 /* SwiftDataProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4302CA742DF6D844003AAD1C /* Build configuration list for PBXNativeTarget "BookwormTests" */;
+			buildConfigurationList = 431F32022DF82C72009C3276 /* Build configuration list for PBXNativeTarget "SwiftDataProjectTests" */;
 			buildPhases = (
-				4302CA592DF6D844003AAD1C /* Sources */,
-				4302CA5A2DF6D844003AAD1C /* Frameworks */,
-				4302CA5B2DF6D844003AAD1C /* Resources */,
+				431F31E72DF82C72009C3276 /* Sources */,
+				431F31E82DF82C72009C3276 /* Frameworks */,
+				431F31E92DF82C72009C3276 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4302CA5F2DF6D844003AAD1C /* PBXTargetDependency */,
+				431F31ED2DF82C72009C3276 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4302CA602DF6D844003AAD1C /* BookwormTests */,
+				431F31EE2DF82C72009C3276 /* SwiftDataProjectTests */,
 			);
-			name = BookwormTests;
+			name = SwiftDataProjectTests;
 			packageProductDependencies = (
 			);
-			productName = BookwormTests;
-			productReference = 4302CA5D2DF6D844003AAD1C /* BookwormTests.xctest */;
+			productName = SwiftDataProjectTests;
+			productReference = 431F31EB2DF82C72009C3276 /* SwiftDataProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4302CA482DF6D841003AAD1C /* Project object */ = {
+		431F31D62DF82C6F009C3276 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					4302CA4F2DF6D841003AAD1C = {
+					431F31DD2DF82C6F009C3276 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					4302CA5C2DF6D844003AAD1C = {
+					431F31EA2DF82C72009C3276 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 4302CA4F2DF6D841003AAD1C;
+						TestTargetID = 431F31DD2DF82C6F009C3276;
 					};
 				};
 			};
-			buildConfigurationList = 4302CA4B2DF6D841003AAD1C /* Build configuration list for PBXProject "Bookworm" */;
+			buildConfigurationList = 431F31D92DF82C6F009C3276 /* Build configuration list for PBXProject "SwiftDataProject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 4302CA472DF6D841003AAD1C;
+			mainGroup = 431F31D52DF82C6F009C3276;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4302CA512DF6D841003AAD1C /* Products */;
+			productRefGroup = 431F31DF2DF82C6F009C3276 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4302CA4F2DF6D841003AAD1C /* Bookworm */,
-				4302CA5C2DF6D844003AAD1C /* BookwormTests */,
+				431F31DD2DF82C6F009C3276 /* SwiftDataProject */,
+				431F31EA2DF82C72009C3276 /* SwiftDataProjectTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4302CA4E2DF6D841003AAD1C /* Resources */ = {
+		431F31DC2DF82C6F009C3276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4302CA5B2DF6D844003AAD1C /* Resources */ = {
+		431F31E92DF82C72009C3276 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,14 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4302CA4C2DF6D841003AAD1C /* Sources */ = {
+		431F31DA2DF82C6F009C3276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4302CA592DF6D844003AAD1C /* Sources */ = {
+		431F31E72DF82C72009C3276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,15 +192,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4302CA5F2DF6D844003AAD1C /* PBXTargetDependency */ = {
+		431F31ED2DF82C72009C3276 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4302CA4F2DF6D841003AAD1C /* Bookworm */;
-			targetProxy = 4302CA5E2DF6D844003AAD1C /* PBXContainerItemProxy */;
+			target = 431F31DD2DF82C6F009C3276 /* SwiftDataProject */;
+			targetProxy = 431F31EC2DF82C72009C3276 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4302CA6F2DF6D844003AAD1C /* Debug */ = {
+		431F31FD2DF82C72009C3276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		4302CA702DF6D844003AAD1C /* Release */ = {
+		431F31FE2DF82C72009C3276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +319,7 @@
 			};
 			name = Release;
 		};
-		4302CA722DF6D844003AAD1C /* Debug */ = {
+		431F32002DF82C72009C3276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,7 +339,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.Bookworm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.SwiftDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -351,7 +351,7 @@
 			};
 			name = Debug;
 		};
-		4302CA732DF6D844003AAD1C /* Release */ = {
+		431F32012DF82C72009C3276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -371,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.Bookworm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.SwiftDataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -383,7 +383,7 @@
 			};
 			name = Release;
 		};
-		4302CA752DF6D844003AAD1C /* Debug */ = {
+		431F32032DF82C72009C3276 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -392,7 +392,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.BookwormTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.SwiftDataProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -401,11 +401,11 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookworm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bookworm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDataProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftDataProject";
 			};
 			name = Debug;
 		};
-		4302CA762DF6D844003AAD1C /* Release */ = {
+		431F32042DF82C72009C3276 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,7 +414,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.BookwormTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.SwiftDataProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -423,41 +423,41 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookworm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bookworm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDataProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftDataProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4302CA4B2DF6D841003AAD1C /* Build configuration list for PBXProject "Bookworm" */ = {
+		431F31D92DF82C6F009C3276 /* Build configuration list for PBXProject "SwiftDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4302CA6F2DF6D844003AAD1C /* Debug */,
-				4302CA702DF6D844003AAD1C /* Release */,
+				431F31FD2DF82C72009C3276 /* Debug */,
+				431F31FE2DF82C72009C3276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4302CA712DF6D844003AAD1C /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+		431F31FF2DF82C72009C3276 /* Build configuration list for PBXNativeTarget "SwiftDataProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4302CA722DF6D844003AAD1C /* Debug */,
-				4302CA732DF6D844003AAD1C /* Release */,
+				431F32002DF82C72009C3276 /* Debug */,
+				431F32012DF82C72009C3276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4302CA742DF6D844003AAD1C /* Build configuration list for PBXNativeTarget "BookwormTests" */ = {
+		431F32022DF82C72009C3276 /* Build configuration list for PBXNativeTarget "SwiftDataProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4302CA752DF6D844003AAD1C /* Debug */,
-				4302CA762DF6D844003AAD1C /* Release */,
+				431F32032DF82C72009C3276 /* Debug */,
+				431F32042DF82C72009C3276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4302CA482DF6D841003AAD1C /* Project object */;
+	rootObject = 431F31D62DF82C6F009C3276 /* Project object */;
 }

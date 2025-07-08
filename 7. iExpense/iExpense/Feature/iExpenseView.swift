@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  iExpenseView.swift
 //  iExpense
 //
 //  Created by William Boles on 27/05/2025.
@@ -55,7 +55,7 @@ class Expenses {
     }
 }
 
-struct ContentView: View {
+struct iExpenseView: View {
     @State private var expenses = Expenses()
     @State private var showingAddExpense = false
     
@@ -130,5 +130,5 @@ struct ExpenseItemCellView: View {
 }
 
 #Preview {
-    ContentView()
+    iExpenseView()
 }

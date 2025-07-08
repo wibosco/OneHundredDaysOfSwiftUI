@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            WeSplitContentView()
+            WeSplitView()
                 .tabItem {
                     Label("WeSplit", systemImage: "dollarsign.circle")
                 }

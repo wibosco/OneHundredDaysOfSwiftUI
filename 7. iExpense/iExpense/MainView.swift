@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            ContentView()
+            iExpenseView()
                 .tabItem {
                     Label("Main", systemImage: "number.circle")
                 }

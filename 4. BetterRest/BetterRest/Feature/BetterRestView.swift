@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BetterRestView.swift
 //  BetterRest
 //
 //  Created by William Boles on 22/05/2025.
@@ -8,7 +8,7 @@
 import CoreML
 import SwiftUI
 
-struct ContentView: View {
+struct BetterRestView: View {
     @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
@@ -91,5 +91,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    BetterRestView()
 }

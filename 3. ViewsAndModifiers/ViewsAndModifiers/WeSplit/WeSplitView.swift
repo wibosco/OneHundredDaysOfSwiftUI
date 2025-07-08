@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WeSplitView.swift
 //  ViewsAndModifiers
 //
 //  Created by William Boles on 21/05/2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WeSplitContentView: View {
+struct WeSplitView: View {
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
@@ -76,5 +76,5 @@ struct WeSplitContentView: View {
 }
 
 #Preview {
-    WeSplitContentView()
+    WeSplitView()
 }

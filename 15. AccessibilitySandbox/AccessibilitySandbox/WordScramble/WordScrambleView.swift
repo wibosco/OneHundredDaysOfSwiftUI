@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WordScrambleView.swift
 //  WordScramble
 //
 //  Created by William Boles on 26/05/2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WordScrambleView: View {
     @State private var usedWords = [String]()
     @State private var rootWord = ""
     @State private var newWord = ""
@@ -38,6 +38,8 @@ struct ContentView: View {
                             Image(systemName: "\(word.count).circle")
                             Text(word)
                         }
+                        .accessibilityElement()
+                        .accessibilityLabel("\(word), \(word.count) letters")
                     }
                 }
             }
@@ -137,5 +139,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    WordScrambleView()
 }

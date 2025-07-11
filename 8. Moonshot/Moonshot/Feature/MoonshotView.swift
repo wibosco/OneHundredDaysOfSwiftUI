@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MoonshotView.swift
 //  Moonshot
 //
 //  Created by William Boles on 28/05/2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MoonshotView: View {
     enum ViewMode {
         case grid
         case list
@@ -133,5 +133,5 @@ struct MissionGridView: View {
 }
 
 #Preview {
-    ContentView()
+    MoonshotView()
 }

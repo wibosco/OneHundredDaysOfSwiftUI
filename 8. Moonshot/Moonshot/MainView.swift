@@ -15,7 +15,7 @@ struct MainView: View {
     
     var body: some View {
         TabView {
-            ContentView()
+            MoonshotView()
                 .tabItem {
                     Label("Moonshot", systemImage: "moon.circle")
                 }

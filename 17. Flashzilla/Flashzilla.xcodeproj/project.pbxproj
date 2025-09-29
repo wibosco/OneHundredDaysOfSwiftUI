@@ -6,21 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		4302D6ED2E21435200C2009C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4302D6D72E21434F00C2009C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4302D6DE2E21434F00C2009C;
+			remoteInfo = Flashzilla;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		4358D6232E8AD18300EC94DE /* GuessTheFlag.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GuessTheFlag.xcodeproj; path = "../2. GuessTheFlag/GuessTheFlag.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		43E798452DBBD91500A6FD30 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4302D6DF2E21434F00C2009C /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4302D6EC2E21435200C2009C /* FlashzillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashzillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		43E798472DBBD91500A6FD30 /* WeSplit */ = {
+		4302D6E12E21434F00C2009C /* Flashzilla */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeSplit;
+			path = Flashzilla;
+			sourceTree = "<group>";
+		};
+		4302D6EF2E21435200C2009C /* FlashzillaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FlashzillaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43E798422DBBD91500A6FD30 /* Frameworks */ = {
+		4302D6DC2E21434F00C2009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4302D6E92E21435200C2009C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,26 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4358D62E2E8AD18300EC94DE /* Products */ = {
+		4302D6D62E21434F00C2009C = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		43E7983C2DBBD91500A6FD30 = {
-			isa = PBXGroup;
-			children = (
-				4358D6232E8AD18300EC94DE /* GuessTheFlag.xcodeproj */,
-				43E798472DBBD91500A6FD30 /* WeSplit */,
-				43E798462DBBD91500A6FD30 /* Products */,
+				4302D6E12E21434F00C2009C /* Flashzilla */,
+				4302D6EF2E21435200C2009C /* FlashzillaTests */,
+				4302D6E02E21434F00C2009C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		43E798462DBBD91500A6FD30 /* Products */ = {
+		4302D6E02E21434F00C2009C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43E798452DBBD91500A6FD30 /* WeSplit.app */,
+				4302D6DF2E21434F00C2009C /* Flashzilla.app */,
+				4302D6EC2E21435200C2009C /* FlashzillaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,70 +73,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43E798442DBBD91500A6FD30 /* WeSplit */ = {
+		4302D6DE2E21434F00C2009C /* Flashzilla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43E798532DBBD91800A6FD30 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = 4302D7002E21435200C2009C /* Build configuration list for PBXNativeTarget "Flashzilla" */;
 			buildPhases = (
-				43E798412DBBD91500A6FD30 /* Sources */,
-				43E798422DBBD91500A6FD30 /* Frameworks */,
-				43E798432DBBD91500A6FD30 /* Resources */,
+				4302D6DB2E21434F00C2009C /* Sources */,
+				4302D6DC2E21434F00C2009C /* Frameworks */,
+				4302D6DD2E21434F00C2009C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				43E798472DBBD91500A6FD30 /* WeSplit */,
+				4302D6E12E21434F00C2009C /* Flashzilla */,
 			);
-			name = WeSplit;
+			name = Flashzilla;
 			packageProductDependencies = (
 			);
-			productName = WeSplit;
-			productReference = 43E798452DBBD91500A6FD30 /* WeSplit.app */;
+			productName = Flashzilla;
+			productReference = 4302D6DF2E21434F00C2009C /* Flashzilla.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4302D6EB2E21435200C2009C /* FlashzillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4302D7032E21435200C2009C /* Build configuration list for PBXNativeTarget "FlashzillaTests" */;
+			buildPhases = (
+				4302D6E82E21435200C2009C /* Sources */,
+				4302D6E92E21435200C2009C /* Frameworks */,
+				4302D6EA2E21435200C2009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4302D6EE2E21435200C2009C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4302D6EF2E21435200C2009C /* FlashzillaTests */,
+			);
+			name = FlashzillaTests;
+			packageProductDependencies = (
+			);
+			productName = FlashzillaTests;
+			productReference = 4302D6EC2E21435200C2009C /* FlashzillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		43E7983D2DBBD91500A6FD30 /* Project object */ = {
+		4302D6D72E21434F00C2009C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					43E798442DBBD91500A6FD30 = {
-						CreatedOnToolsVersion = 16.1;
+					4302D6DE2E21434F00C2009C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4302D6EB2E21435200C2009C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4302D6DE2E21434F00C2009C;
 					};
 				};
 			};
-			buildConfigurationList = 43E798402DBBD91500A6FD30 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = 4302D6DA2E21434F00C2009C /* Build configuration list for PBXProject "Flashzilla" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 43E7983C2DBBD91500A6FD30;
+			mainGroup = 4302D6D62E21434F00C2009C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 43E798462DBBD91500A6FD30 /* Products */;
+			productRefGroup = 4302D6E02E21434F00C2009C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4358D62E2E8AD18300EC94DE /* Products */;
-					ProjectRef = 4358D6232E8AD18300EC94DE /* GuessTheFlag.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				43E798442DBBD91500A6FD30 /* WeSplit */,
+				4302D6DE2E21434F00C2009C /* Flashzilla */,
+				4302D6EB2E21435200C2009C /* FlashzillaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43E798432DBBD91500A6FD30 /* Resources */ = {
+		4302D6DD2E21434F00C2009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4302D6EA2E21435200C2009C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,7 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43E798412DBBD91500A6FD30 /* Sources */ = {
+		4302D6DB2E21434F00C2009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4302D6E82E21435200C2009C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,8 +191,16 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4302D6EE2E21435200C2009C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4302D6DE2E21434F00C2009C /* Flashzilla */;
+			targetProxy = 4302D6ED2E21435200C2009C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		43E798512DBBD91800A6FD30 /* Debug */ = {
+		4302D6FE2E21435200C2009C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -203,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		43E798522DBBD91800A6FD30 /* Release */ = {
+		4302D6FF2E21435200C2009C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -259,14 +319,13 @@
 			};
 			name = Release;
 		};
-		43E798542DBBD91800A6FD30 /* Debug */ = {
+		4302D7012E21435200C2009C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,27 +333,31 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.Flashzilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		43E798552DBBD91800A6FD30 /* Release */ = {
+		4302D7022E21435200C2009C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,41 +365,99 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.Flashzilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4302D7042E21435200C2009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.FlashzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashzilla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashzilla";
+			};
+			name = Debug;
+		};
+		4302D7052E21435200C2009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamboles.FlashzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashzilla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flashzilla";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43E798402DBBD91500A6FD30 /* Build configuration list for PBXProject "WeSplit" */ = {
+		4302D6DA2E21434F00C2009C /* Build configuration list for PBXProject "Flashzilla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43E798512DBBD91800A6FD30 /* Debug */,
-				43E798522DBBD91800A6FD30 /* Release */,
+				4302D6FE2E21435200C2009C /* Debug */,
+				4302D6FF2E21435200C2009C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43E798532DBBD91800A6FD30 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		4302D7002E21435200C2009C /* Build configuration list for PBXNativeTarget "Flashzilla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43E798542DBBD91800A6FD30 /* Debug */,
-				43E798552DBBD91800A6FD30 /* Release */,
+				4302D7012E21435200C2009C /* Debug */,
+				4302D7022E21435200C2009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4302D7032E21435200C2009C /* Build configuration list for PBXNativeTarget "FlashzillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4302D7042E21435200C2009C /* Debug */,
+				4302D7052E21435200C2009C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43E7983D2DBBD91500A6FD30 /* Project object */;
+	rootObject = 4302D6D72E21434F00C2009C /* Project object */;
 }

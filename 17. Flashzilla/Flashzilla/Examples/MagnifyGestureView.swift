@@ -1,0 +1,32 @@
+//
+//  MagnifyGestureView.swift
+//  Flashzilla
+//
+//  Created by William Boles on 11/07/2025.
+//
+
+import SwiftUI
+
+struct MagnifyGestureView: View {
+    @State private var currentAmount = 0.0
+    @State private var finalAmount = 1.0
+    
+    var body: some View {
+        Text("Pinch to magnify")
+            .scaleEffect(finalAmount + currentAmount)
+            .gesture (
+                MagnifyGesture()
+                    .onChanged { value in
+                        currentAmount = value.magnification - 1
+                    }
+                    .onEnded { value in
+                        finalAmount += currentAmount
+                        currentAmount = 0
+                    }
+            )
+    }
+}
+
+#Preview {
+    MagnifyGestureView()
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:17. Flashzilla/Flashzilla.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:16. HotProspects/HotProspects.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:15. AccessibilitySandbox/AccessibilitySandbox.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:14. BucketList/BucketList.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:13. Instafilter/Instafilter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:12. SwiftDataProject/SwiftDataProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:11. Bookworm/Bookworm.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10. CupcakeCorner/CupcakeCorner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:9. Navigation/Navigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:8. Moonshot/Moonshot.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7. iExpense/iExpense.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:6. Animations/Animations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:5. WordScramble/WordScramble.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:4. BetterRest/BetterRest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:3. ViewsAndModifiers/ViewsAndModifiers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:2. GuessTheFlag/GuessTheFlag.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:1. WeSplit/WeSplit.xcodeproj">
+   </FileRef>
+</Workspace>

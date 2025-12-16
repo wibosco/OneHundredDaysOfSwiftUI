@@ -10,6 +10,32 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
+            
+            FlashzillaView()
+                .tabItem {
+                    Label("Flashzilla", systemImage: "lanyardcard")
+                }
+            
+            ReduceTransparencyView()
+                .tabItem {
+                    Label("Transparency", systemImage: "app.translucent")
+                }
+            
+            ReduceMotionView()
+                .tabItem {
+                    Label("Motion", systemImage: "iphone.motion")
+                }
+            
+            DifferentiateWithoutColorView()
+                .tabItem {
+                    Label("Color", systemImage: "paint.bucket.classic")
+                }
+            
+            ScenePhaseView()
+                .tabItem {
+                    Label("Phase", systemImage: "moonphase.waxing.crescent")
+                }
+            
             TimerView()
                 .tabItem {
                     Label("Timer", systemImage: "clock")

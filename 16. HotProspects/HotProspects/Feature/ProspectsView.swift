@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 import CodeScanner
-import UserNotifications
+@preconcurrency import UserNotifications
 
 struct ProspectsView: View {
     enum FilterType {

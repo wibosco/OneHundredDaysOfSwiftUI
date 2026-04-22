@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:18. LayoutAndGeometry/LayoutAndGeometry.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:17. Flashzilla/Flashzilla.xcodeproj">
    </FileRef>
    <FileRef
